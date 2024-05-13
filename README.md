@@ -36,5 +36,5 @@ The solution script will output the shortest path and the total estimated distan
 ![download (21)](https://github.com/Maryam189/Traveling-Salesman-Problem-Beam-Search/assets/76420523/c0aef1dd-1adb-4e10-824f-db1f69bd1f57)
 
 ## Contributing
-**Contributions are Welcome!** Please send me a pull request or open an issue to discuss your ideas. If there's anything else you'd like to know about it, let me know. Feel free to reach me out at [MaryamKhalid](Maryamkhalid590@gmail.com)
+**Contributions are Welcome!** Please send me a pull request or open an issue to discuss your ideas. If there's anything else you'd like to know about it, let me know. Feel free to reach me out at Maryamkhalid590@gmail.com
 
