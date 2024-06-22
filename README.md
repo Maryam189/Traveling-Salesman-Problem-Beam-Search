@@ -16,14 +16,30 @@ This project uses the Beam Search algorithm, a heuristic search method that expa
  - **Distance Matrix Input:** Accepts a pre-defined distance matrix and city indices for flexible problem setup.
  - **Visualization:** Includes a Matplotlib plot showing the relationship between beam width and travel distance, aiding in the selection of an optimal beam width.
  - **Performance Analysis:** Examines different beam widths to assess their efficiency and effectiveness in finding the shortest path.
- - 
+
+## Beam Search Implementation
+The Beam Search operates with a beam width that limits the number of paths evaluated, thus balancing between solution quality and computational efficiency. This approach is demonstrated in the following steps:
+
+ - **Data Model:** Initialize a data model containing a matrix of distances between each pair of cities and a list of city names indexed accordingly.
+
+ - **Distance Calculation:** Create functions to compute the travel distance between two cities based on the distance matrix.
+
+ - **Child Route Generation:** Develop a mechanism to generate possible next steps (cities) from the current city, ensuring that no city is revisited.
+
+ - **Beam Search Algorithm:** Implement the Beam Search to iteratively expand the frontier of paths using the beam width until all cities are visited and the traveler returns to New York.
+
+ - **Path Optimization:** By varying the beam width from 2 to 1000, analyze how the total distance changes and determine the optimal beam width for this particular problem.
+
 ## Usage
  - **Setup the Environment:** Ensure Python 3.11 and required packages (matplotlib for plotting) are installed.
  - **Prepare Input Data:** Format your distance matrix and city list as specified in the script comments.
  - **Configure Beam Width:** Set the beam width parameter in the script to experiment with different values.
  - **Run the Solver:** Execute the script to find the shortest path and generate the plot.
  - **Analyze Results:** Review the output paths and distances for various beam widths.
-   
+
+## Results
+The implementation successfully identifies the shortest route for the traveling salesman under various beam widths. The optimal path and corresponding total distance are dynamically calculated and displayed, showcasing the effectiveness of the Beam Search in optimizing complex routing problems.
+
 ## Output Format
 The solution script will output the shortest path and the total estimated distance for the configured beam value. For multiple beam values, the results will include paths and distances for each configuration.
 
